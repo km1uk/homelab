@@ -118,6 +118,10 @@ app-template:
                 href: https://grafana.kgmm.co.uk
                 description: Observability dashboards
                 icon: grafana.svg
+            - Longhorn:
+                href: https://longhorn.kgmm.co.uk
+                description: Cluster storage
+                icon: longhorn.svg
           - Utilities:
             - Excalidraw:
                 href: https://draw.kgmm.co.uk
