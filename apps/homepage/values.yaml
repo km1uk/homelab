@@ -130,10 +130,10 @@ app-template:
         bookmarks.yaml: |
           - Homelab:
             - Documentation:
-              - href: https://homelab.kgmm.co.uk
+              - href: https://homelab.khuedoan.com/
                 icon: google-docs.svg
             - Public homelab repository:
-              - href: https://github.com/khuedoan/homelab
+              - href: https://github.com/km1uk/homelab
                 icon: github.svg
           - Managed services:
             - Cloudflare:
@@ -146,15 +146,12 @@ app-template:
               - href: https://my.zerotier.com
                 icon: zerotier.svg
           - Infrastructure:
-            - Router:
-              - href: https://192.168.1.1
+            - Unifi Network Appliance:
+              - href: https://unifi.kgmm.co.uk
                 icon: router.svg
             - Proxmox:
-              - href: https://proxmox:8006
+              - href: https://pve.kgmm.co.uk
                 icon: proxmox.svg
-            - Google Cloud:
-              - href: https://console.cloud.google.com
-                icon: google-cloud-platform.svg
-            - Oracle Cloud:
-              - href: https://cloud.oracle.com
-                icon: oracle-cloud.svg
+            - Synology DiskStation Manager:
+              - href: https://dsm.kgmm.co.uk
+                icon: synology.svg
