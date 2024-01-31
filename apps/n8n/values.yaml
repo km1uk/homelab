@@ -1,0 +1,14 @@
+n8n:
+  ingress:
+    enabled: true
+    annotations:
+      cert-manager.io/cluster-issuer: letsencrypt-prod
+    hosts:
+      - host: n8n.kgmm.co.uk
+        paths:
+          - /
+    tls:
+      - secretName: n8n-tls-certificate
+        hosts:
+          - n8n.kgmm.co.uk
+    className: "nginx"
