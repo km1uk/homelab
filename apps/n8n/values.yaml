@@ -14,6 +14,8 @@ n8n:
     enabled: true
     annotations:
       cert-manager.io/cluster-issuer: letsencrypt-prod
+      external-dns.alpha.kubernetes.io/target: homelab-tunnel.kgmm.co.uk
+      external-dns.alpha.kubernetes.io/cloudflare-proxied: 'true'
     hosts:
       - host: n8n.kgmm.co.uk
         paths:
