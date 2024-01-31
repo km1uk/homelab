@@ -1,4 +1,9 @@
 n8n:
+  host: n8n.kgmm.co.uk
+  protocol: https
+  extraEnv:
+    WEBHOOK_URL: "https://n8n.kgmm.co.uk"
+    GENERIC_TIMEZONE: "Europe/London"
   persistence:
     enabled: true
     type: dynamic
