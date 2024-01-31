@@ -1,4 +1,15 @@
 n8n:
+  persistence:
+    enabled: true
+    type: dynamic
+    accessModes:
+      - ReadWriteOnce
+    size: 1Gi
+  podSecurityContext:
+    fsGroup: 1000
+  securityContext:
+    runAsUser: 1000
+
   ingress:
     enabled: true
     annotations:
