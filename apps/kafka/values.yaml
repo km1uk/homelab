@@ -3,10 +3,10 @@ kafka-ui:
         enabled: true
         annotations:
             cert-manager.io/cluster-issuer: letsencrypt-prod
-        ingressClassName: "nginx"
+        ingressClassName: nginx
         path: "/"
         pathType: "Prefix"  
-        host: "kafka.kgmm.co.uk"
+        host: kafka.kgmm.co.uk
         tls:
             enabled: true
-            secretName: "kafka_ui-tls-certificate"
+            secretName: kafkaui-tls-certificate
