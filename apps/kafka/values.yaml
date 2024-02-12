@@ -2,7 +2,7 @@ kafka-ui:
     yamlApplicationConfig:
         kafka:
             clusters:
-                - name: yaml
+                - name: kafka
                   bootstrapServers: kafka.kafka:9092
     ingress:
         enabled: true
