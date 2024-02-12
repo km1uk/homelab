@@ -1,4 +1,10 @@
 grafana:
+  persistence:
+    type: pvc
+    enabled: true
+    accessModes:
+      - ReadWriteOnce
+    size: 10Gi
   ingress:
     enabled: true
     ingressClassName: nginx
