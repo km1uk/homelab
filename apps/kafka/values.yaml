@@ -1,14 +1,9 @@
 kafka-ui:
-    envs:
-        config:
-            KAFKA_CLUSTERS_0_PROPERTIES_SECURITY_PROTOCOL: SASL_PLAINTEXT
-            KAFKA_CLUSTERS_0_PROPERTIES_SASL_MECHANISM: PLAIN
-            KAFKA_CLUSTERS_0_PROPERTIES_SASL_JAAS_CONFIG: 'org.apache.kafka.common.security.plain.PlainLoginModule required username="user1" password="jTQCVXckPk";'
     yamlApplicationConfig:
         kafka:
             clusters:
                 - name: yaml
-                  bootstrapServers: kafka.kafka:9092
+                  bootstrapServers: kafka.kafka:29092
     ingress:
         enabled: true
         annotations:
