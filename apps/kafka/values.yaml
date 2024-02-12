@@ -3,7 +3,7 @@ kafka-ui:
         kafka:
             clusters:
                 - name: yaml
-                  bootstrapServers: kafka.kafka:29092
+                  bootstrapServers: kafka.kafka:9092
     ingress:
         enabled: true
         annotations:
