@@ -13,4 +13,4 @@ kestra:
     standalone:
       enabled: false
     kafka:
-        enabled: true
+      enabled: true
