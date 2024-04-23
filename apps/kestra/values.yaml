@@ -1,4 +1,3 @@
 kestra:
-    deployments:
-        kafka:
-            enabled: true
+  kafka:
+    enabled: true
