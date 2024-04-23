@@ -1,4 +1,4 @@
-app-template:
+kestra:
     deployments:
         kafka:
             enabled: true
