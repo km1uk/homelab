@@ -1,0 +1,4 @@
+app-template:
+    deployments:
+        kafka:
+            enabled: true
