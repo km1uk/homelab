@@ -2,6 +2,6 @@ apiVersion: v2
 name: kestra
 version: 0.0.0
 dependencies:
-  - name: app-template
+  - name: kestra
     version: 0.16.0
     repository: https://helm.kestra.io/
