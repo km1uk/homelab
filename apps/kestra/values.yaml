@@ -1,0 +1,16 @@
+kestra:
+  deployments:
+    webserver:
+      enabled: true
+    executor:
+      enabled: true
+    indexer:
+      enabled: true
+    scheduler:
+      enabled: true
+    worker:
+      enabled: true
+    standalone:
+      enabled: false
+    kafka:
+        enabled: true
