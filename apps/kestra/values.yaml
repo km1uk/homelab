@@ -1,3 +1,20 @@
 kestra:
   kafka:
     enabled: true
+
+  ingress:
+    enabled: true
+    className: "nginx"
+    annotations: 
+      cert-manager.io/cluster-issuer: letsencrypt-prod
+      external-dns.alpha.kubernetes.io/target: homelab-tunnel.kgmm.co.uk
+      external-dns.alpha.kubernetes.io/cloudflare-proxied: 'true'
+    hosts:
+      - host: kestra.kgmm.co.uk
+        paths:
+          - path: /
+            pathType: ImplementationSpecific
+    tls:
+      - secretName: kestra-tls-certificate
+        hosts:
+          - kestra.kgmm.co.uk
