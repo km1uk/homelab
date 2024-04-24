@@ -1,11 +1,6 @@
 kestra:
   kafka:
     enabled: true
-  server:
-    basic-auth:
-      enabled: true
-      username: admin
-      password: Ma1colm15
 
   ingress:
     enabled: true
