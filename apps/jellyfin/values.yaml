@@ -16,19 +16,19 @@ app-template:
         prowlarr:
           image:
             repository: lscr.io/linuxserver/prowlarr
-            tag: 1.11.4
+            tag: 1.16.2
         radarr:
           image:
             repository: lscr.io/linuxserver/radarr
-            tag: 5.2.6
+            tag: 5.4.6
         sonarr:
           image:
             repository: lscr.io/linuxserver/sonarr
-            tag: 4.0.0
+            tag: 4.0.4
         jellyseerr:
           image:
             repository: docker.io/fallenbagel/jellyseerr
-            tag: 1.7.0
+            tag: 1.8.1
   service:
     main:
       ports:
